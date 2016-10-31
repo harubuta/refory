@@ -1,0 +1,276 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+    font-family:HiraKakuProN-W3, "Helvetica Neue", Helvetica, "メイリオ", Arial, sans-serif;
+}
+html {
+    height:100%;
+}
+body {
+	line-height: 1;
+	font-family:HiraKakuProN-W3, "Helvetica Neue", Helvetica, "メイリオ", Arial, sans-serif;
+	background-color:#e3f9e3;
+	height:100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+ 
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+ 
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+ 
+/* tables still need 'cellspacing=&quot;0&quot;' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    background-color:#e3f9e3;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#header{
+    width:100%;
+    height: 60px;
+    background-color: rgba(255,255,255,0.75);
+    z-index:100;
+}
+
+#header_left{
+    float: left;
+    padding: 0;
+}
+
+#header_right{
+    display:none;
+}
+.refory_logo_new{
+    width: 179px;
+    height: 54px;
+    float: left;
+    margin-left: 70px;
+}
+#copy_img{
+    width:100%;
+    height:auto;
+    margin:auto;
+}
+
+#copy_img img{
+    width:100%;
+    height:auto;
+    margin-bottom: -2px;
+}
+
+#write{
+    float: right;
+    padding: 10px;
+    background-color: #339933;
+    margin: 7.5px 10px 15px 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#wrap{
+    clear: both;
+    width:960px;
+    margin:auto;
+    padding: 60px 0 0 0;
+}
+
+.written_stories{
+    border-radius: 4px;
+    padding: 10px;
+    margin:15px;
+    background-color: #fff;
+    line-height: 1.5em
+}
+
+.written_stories h2{
+    border-top-style: dashed;
+    font-size: 1.2em;
+    padding: 5px 0;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.writing_stories{
+    border-radius: 4px;
+    padding: 10px;
+    margin:15px;
+    background-color: #fff;
+    line-height: 1.5em
+}
+
+.edit{
+    padding: 10px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    background-color: #339933;
+    margin: 0 0 0 30px;
+    text-decoration: none;
+    color: #fff;
+}
+.footer{
+    width:100%;
+    height:100px;
+    background-color: rgba(255,255,255,0.75);
+    position:absolute;
+    clear:both;
+}
+.footer_left{
+    float: left;
+    padding:0;
+}
+.footer_left img {
+    display: none;
+}
+.footer p {
+    padding: 40px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+}
+
+@media (min-width: 780px) {
+    
+#header{
+    position: fixed;
+    width:100%;
+    min-width:760px;
+    height: 60px;
+    background-color: rgba(255,255,255,0.75);
+    z-index:100;
+}
+#header_left{
+    float: left;
+    padding: 0 0 0 30px;
+}
+#header_right{
+    float:right;
+    padding: 0 30px 0 0;
+    margin: 3px;
+    width:213px;
+    display:block;
+}
+.refory_logo_new{
+    width: 179px;
+    height: 54px;
+    float: left;
+    margin-left: 70px;
+}
+#header_right .fb_img-header {
+    width: 49px;
+    float: left;
+    margin-top: 1px;
+    margin-left: 8px;
+}
+#header_right .fb_img-header img{
+    width:40px;
+    height:40px;
+    display: inline-block;
+    border-radius:50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border: 3px solid rgba(255,255,255,0.6);
+    background-size: cover;
+    right:180px;
+    top:6px;
+    vertical-align:middle;
+}
+#fb_login{
+    float: right;
+    padding: 10px;
+    background-color: #305097 ;
+    margin: 0px 10px 0px 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+    height: 30px;
+    width: 183px;
+}
+#header_right .write .write{
+    float: right;
+    padding: 10px;
+    background-color: #339933;
+    margin: 7.5px 10px 15px 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+}
+#copy_img{
+    clear: both;
+    width:100%;
+    height:auto;
+    margin:auto;
+    padding: 60px 0 0 0;
+}
+.footer{
+    width:100%;
+    min-width:760px;
+    height:100px;
+    background-color: rgba(255,255,255,0.75);
+    position:absolute;
+    bottom:auto;
+}
+.footer_left{
+    float: left;
+    padding: 25px 0 0 30px;
+}
+.footer_left img {
+    display: block;
+}
+.footer p {
+    padding: 0;
+    margin-bottom: 0px;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    right: 130px;
+}
+}
